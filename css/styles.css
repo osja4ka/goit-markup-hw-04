@@ -147,9 +147,25 @@ a{
 .hero {
     min-height: 600px;
     text-align: center;
-    /*background: url("/images/hero.jpg") no-repeat center;*/
-    background-color: #757575;
     padding-top: 200px;
+
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("../images/hero.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    
+    
+    
 }
 .hero-title {
     margin: 0;
@@ -190,11 +206,43 @@ a{
     display: flex;
     justify-content: space-between;
 }
+.advantages-item::before{
+    display: flex;
+    border-radius: 4px;
+    content: "";
+    width: 270px;
+    height: 120px; 
+    background-color: var(--light-grey-color);
+    margin-bottom: 30px;
+}
+.advantages-item.antena::before{
+    background-image: url(../images/advantages/antenna.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages-item.clock::before{
+    background-image: url(../images/advantages/clock.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages-item.diagram::before{
+    background-image: url(../images/advantages/diagram.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages-item.astronaut::before{
+    background-image: url(../images/advantages/astronaut.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .advantages-title{
     visibility: hidden;
 }
 .liner {
+
     border-bottom: 1px solid #ECECEC
+    
 }
 .advantages-item{
     width: 270px;
@@ -203,6 +251,7 @@ a{
 .advantages-item:last-child{
     margin-right: 0px;
 }
+
 
 .advantage-item-name{
     margin-top: 0px;
@@ -230,8 +279,10 @@ a{
     display: flex;
 }
 .specializing-item {
+    overflow: hidden;
     width: 370px;
     margin-right: 30px;
+    border-radius: 5px;
     
     /*background: url(./images/laptop.png) no-repeat center;*/
     background-color: #757575;
@@ -255,11 +306,14 @@ a{
     display: flex;
 }
 .member {
+    overflow: hidden;
+    border-radius: 4px;
     width: 278px;
     height: 422px;
     margin-right: 30px;
 
     background-color: var(--on-background-text-color);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);;
 }
 .member:last-child{
     margin-right: 0px;
@@ -449,6 +503,7 @@ a{
 }
 
 .card-content{
+    overflow: hidden;
     box-sizing: border-box;
     padding-left: 24px;
     padding-top: 20px;
