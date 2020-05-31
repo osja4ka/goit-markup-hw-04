@@ -22,10 +22,10 @@
 <!--navigation-->
         <ul class="site-nav list">
           <li class="site-nav-item">
-            <a href="./index.html" class="link current">Студия</a>
-          </li>
+            <a href="./index.html">Студия</a>
+          </li> 
           <li class="site-nav-item">
-            <a href="./portfolio.html">Портфолио</a>
+            <a href="./portfolio.html" class="link current">Портфолио</a>
           </li>
           <li class="site-nav-item">
             <a href="">Контакты</a>
@@ -37,14 +37,16 @@
       <address class="address">
         <ul class="contacts list">
           <li class="item">
-            <a href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
+            <a class="contact-link" href="mailto:info@devstudio.com">
+              <svg class="icon-envelope" width="16"> 
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>info@devstudio.com</a>
           </li>
           <li class="item">
-            <a href="tel:380961111111">
-              +38 096 111 11 11
-            </a>
+            <a class="contact-link" href="tel:380961111111">
+              <svg class="icon-phone" width="10" height="15">
+                <use href="./images/sprite.svg#icon-phone"></use> 
+              </svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
@@ -77,7 +79,7 @@
           <li class="example-item">
               <a href="">
                <img class="card-image" src="./images/portfolio/poster.jpg" alt="">
-               <div class="card-content"><h2>Постер New Orlean vs Golden Stars</h2>
+               <div class="card-content"><h2>Постер New Orlean vs Golden Star</h2>
                <p class="example-category">Дизайн</p>
                </div>
                <!--<p class="example-description">Lorem ipsum, dolor sit amet consectetur adipisicing 
@@ -208,20 +210,29 @@
     
           <div class="join">
             <strong>присоединяйтесь</strong>
-            <ul class="footer social-networks list">
+            <ul class="footer-social-networks list">
               <li>
-                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на Instagram"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на Twitter"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на Facebook"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на LinkedIn"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use> 
+                </svg></a>
               </li>
             </ul>
+
           </div>
     
           <div class="form">

@@ -25,7 +25,7 @@
           <ul class="site-nav list">
             <li class="site-nav-item">
               <a href="./index.html" class="link current">Студия</a>
-            </li>
+            </li> 
             <li class="site-nav-item">
               <a href="./portfolio.html">Портфолио</a>
             </li>
@@ -39,14 +39,16 @@
         <address class="address">
           <ul class="contacts list">
             <li class="item">
-              <a href="mailto:info@devstudio.com">
-                info@devstudio.com
-              </a>
+              <a class="contact-link" href="mailto:info@devstudio.com">
+                <svg class="icon-envelope" width="16"> 
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>info@devstudio.com</a>
             </li>
             <li class="item">
-              <a href="tel:380961111111">
-                +38 096 111 11 11
-              </a>
+              <a class="contact-link" href="tel:380961111111">
+                <svg class="icon-phone" width="10" height="15">
+                  <use href="./images/sprite.svg#icon-phone"></use> 
+                </svg>+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
@@ -65,10 +67,15 @@
 
 <!--advatages-->
       <section class="section liner">
-        <div class="container">
-          <!--<h2 class="advantages-title">преимущества*</h2>-->
+        <div class="container"> 
+        <h2 class="visually-hidden">преимущества</h2>
           <ul class="advantages list">
             <li class="advantages-item antena"> 
+              <div class="advantages-background">
+                <svg class="icon-antenna" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="advantage-item-name">Внимание к деталям</h3>
               <p class="advantage-description">
                 Идейные соображения, а также начало повседневной работы по
@@ -76,6 +83,11 @@
               </p>
             </li>
             <li class="advantages-item clock">
+              <div class="advantages-background">
+                <svg class="icon-clock" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="advantage-item-name">Пунктуальность</h3>
               <p class="advantage-description">
                 Задача организации, в особенности же рамки и место обучения кадров
@@ -83,6 +95,11 @@
               </p>
             </li>
             <li class="advantages-item diagram">
+              <div class="advantages-background">
+                <svg class="icon-pc" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-pc"></use>
+                </svg>
+              </div>
               <h3 class="advantage-item-name">Планирование</h3>
               <p class="advantage-description">
                 Равным образом консультация с широким активом в значительной
@@ -90,6 +107,11 @@
               </p>
             </li>
             <li class="advantages-item astronaut">
+              <div class="advantages-background">
+                <svg class="icon-astronaut" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="advantage-item-name">Современные технологии</h3>
               <p class="advantage-description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -147,16 +169,24 @@
             <p>Product Designer</p>
             <ul class="social-networks list">
               <li>
-                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                <a href="" class="icon-background" aria-label="ссылка на Instagram"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                <a href="" class="icon-background" aria-label="ссылка на Twitter"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                <a href="" class="icon-background" aria-label="ссылка на Facebook"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+                <a href="" class="icon-background" aria-label="ссылка на LinkedIn"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use> 
+                </svg></a>
               </li>
             </ul>
           </li>
@@ -170,16 +200,24 @@
             <p>Frontend Developer</p>
             <ul class="social-networks list">
               <li>
-                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                <a href="" class="icon-background" aria-label="ссылка на Instagram"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                <a href="" class="icon-background" aria-label="ссылка на Twitter"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                <a href="" class="icon-background" aria-label="ссылка на Facebook"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+                <a href="" class="icon-background" aria-label="ссылка на LinkedIn"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use> 
+                </svg></a>
               </li>
             </ul>
           </li>
@@ -193,16 +231,24 @@
             <p>Marketing</p>
             <ul class="social-networks list">
               <li>
-                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                <a href="" class="icon-background" aria-label="ссылка на Instagram"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                <a href="" class="icon-background" aria-label="ссылка на Twitter"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                <a href="" class="icon-background" aria-label="ссылка на Facebook"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+                <a href="" class="icon-background" aria-label="ссылка на LinkedIn"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use> 
+                </svg></a>
               </li>
             </ul>
           </li>
@@ -216,16 +262,24 @@
             <p>UI Designer</p>
             <ul class="social-networks list">
               <li>
-                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                <a href="" class="icon-background" aria-label="ссылка на Instagram"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                <a href="" class="icon-background" aria-label="ссылка на Twitter"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                <a href="" class="icon-background" aria-label="ссылка на Facebook"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+                <a href="" class="icon-background" aria-label="ссылка на LinkedIn"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use> 
+                </svg></a>
               </li>
             </ul>
           </li>
@@ -237,34 +291,47 @@
        <div class="container">
         <h2 class="title">Постоянные клиенты</h2>
         <ul class="clients list">
-          <li class="clients-item">
-            <a href="">
-              <img src="./images/dif_logos/logo1.svg" alt="" width="44" />
+          <li>
+            <a href="" class="clients-item">
+              <!--width="44"-->
+              <svg class="icon-logo" width="44">
+                <use href="./images/sprite.svg#icon-logo-one"></use> 
+              </svg>
             </a>
           </li>
-          <li class="clients-item">
-            <a href="">
-              <img src="./images/dif_logos/logo2.svg" alt="" width="40" />
+          <li>
+            <a href="" class="clients-item">
+              <svg class="icon-logo" width="40">
+                <use href="./images/sprite.svg#icon-logo-two"></use> 
+              </svg>
             </a>
           </li>
-          <li class="clients-item">
-            <a href="">
-              <img src="./images/dif_logos/logo3.svg" alt="" width="41" />
+          <li>
+            <a href="" class="clients-item">
+              <svg class="icon-logo" width="41">
+                <use href="./images/sprite.svg#icon-logo-three"></use> 
+              </svg>
             </a>
           </li>
-          <li class="clients-item">
-            <a href="">
-              <img src="./images/dif_logos/logo4.svg" alt="" width="82" />
+          <li>
+            <a href="" class="clients-item">
+              <svg class="icon-logo" width="80">
+                <use href="./images/sprite.svg#icon-logo-four"></use> 
+              </svg>
             </a>
           </li>
-          <li class="clients-item">
-            <a href="">
-              <img src="./images/dif_logos/logo5.svg" alt="" width="59" />
+          <li>
+            <a href="" class="clients-item">
+              <svg class="icon-logo" width="59">
+                <use href="./images/sprite.svg#icon-logo-five"></use> 
+              </svg>
             </a>
           </li>
-          <li class="clients-item">
-            <a href="">
-              <img src="./images/dif_logos/logo6.svg" alt="" width="88" />
+          <li>
+            <a href="" class="clients-item">
+              <svg class="icon-logo" width="88">
+                <use href="./images/sprite.svg#icon-logo-six"></use> 
+              </svg>
             </a>
           </li>
         </ul>
@@ -302,26 +369,37 @@
     
           <div class="join">
             <strong>присоединяйтесь</strong>
-            <ul class="footer social-networks list">
+            <ul class="footer-social-networks list">
               <li>
-                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на Instagram"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на Twitter"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на Facebook"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use> 
+                </svg></a>
               </li>
               <li>
-                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+                <a href="" class="footer-icon-background" aria-label="ссылка на LinkedIn"><svg class="icon-socialnet" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use> 
+                </svg></a>
               </li>
             </ul>
+
           </div>
     
           <div class="form">
             <strong>подписаться на рассылку</strong>
             <!--form-->
-            <a href="" class="blue button">Подписаться</a>
+            <a href="" class="blue button">Подписаться<svg class="icon-send" width="24" height="24">
+              <use href="./images/sprite.svg#icon-send"></use> 
+            </svg></a>
           </div>
         </div>
       </div>
