@@ -76,6 +76,7 @@ a{
 }
 .icon-send{
     margin-left: 10px;
+    fill: #fff;
 }
 
 .button:hover{
@@ -83,9 +84,10 @@ a{
     color: var(--accent-color);
     fill: var(--accent-color);
 }
-.button > .icon-send:hover{
+.button:hover > .icon-send {
     fill: var(--accent-color);
-}
+    }
+
 
 /*logo*/
 .logo {
@@ -143,17 +145,13 @@ a{
 .address {
     margin-left: auto;
 }
-.item{
-    display: flex;
-    align-items: baseline;
-}
 
 .contacts .item:not(:last-child){
     margin-right: 30px;
 }
 .contacts  {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 
     color: var(--paragraph-color);
     font-style: normal;
@@ -163,9 +161,8 @@ a{
     letter-spacing: 0.02em;}
 
     .contacts .icon-envelope {
-        display: inline-flex;
-        justify-content: center;
-        
+        position: relative;
+        top: 2px;
         width: 16px;
         height: 11px;
         margin-right: 10px;
@@ -173,6 +170,8 @@ a{
     }
 
     .contacts .icon-phone{
+        display: inline-block;
+        vertical-align: middle;
         width: 10px;
         height: 15px;
         margin-right: 10px;
